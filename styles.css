@@ -1,0 +1,24 @@
+:root {
+    --main-bg-color: #f16e;
+    --main-txt-color: #444;
+}
+
+h1 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+
+.sites-container {
+    border: 3px solid var(--main-txt-color)
+}
+
+.apps-container {
+    border: 3px solid var(--main-txt-color);
+}
